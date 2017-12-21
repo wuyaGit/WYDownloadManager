@@ -1,0 +1,17 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, '8.0'
+
+def shared_pods
+    pod 'FMDB'
+    
+end
+
+target 'WYDownloadManagerDemo' do
+    shared_pods
+end
+
+target 'WYDownloadManager' do
+    shared_pods
+end
+
+
