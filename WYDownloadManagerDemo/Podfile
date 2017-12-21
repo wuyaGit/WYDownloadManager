@@ -10,8 +10,8 @@ target 'WYDownloadManagerDemo' do
     shared_pods
 end
 
-target 'WYDownloadManager' do
-    shared_pods
-end
+# target 'WYDownloadManager' do
+#     shared_pods
+# end
 
 
