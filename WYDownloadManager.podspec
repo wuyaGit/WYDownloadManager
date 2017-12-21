@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
                     Slice Downloader used on iOS, which implement by Objective-C.
                    DESC
 
-  s.homepage     = "http://github.com/wuyaGit/WYDownloadManager"
+  s.homepage     = "https://github.com/wuyaGit/WYDownloadManager"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://github.com/wuyaGit/WYDownloadManager/WYDownloadManager.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/wuyaGit/WYDownloadManager/WYDownloadManager.git", :tag => s.version }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

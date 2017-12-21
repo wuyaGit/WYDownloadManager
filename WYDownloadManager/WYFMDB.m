@@ -7,7 +7,7 @@
 //
 
 #import "WYFMDB.h"
-#import <FMDB.h>
+#import <FMDB/FMDB.h>
 
 #import "WYDownloadManager.h"
 #import "WYMultitaskDloader.h"

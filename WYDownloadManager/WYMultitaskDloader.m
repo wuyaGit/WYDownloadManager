@@ -236,7 +236,7 @@
     
     //在时间大于1秒，且最近记录的下载总量大于0，开始计算下载速率
     if (diffSecond >= 1.0 && _lastCompletedUnitCount > 0) {
-        NSInteger diffCount = currentLength - _lastCompletedUnitCount;
+        long long diffCount = currentLength - _lastCompletedUnitCount;
         _networkSpeed = [self convertSize:diffCount/diffSecond];
         
         _lastCompletedUnitCount = currentLength;
@@ -257,7 +257,7 @@
 }
 
 /** json化各线程进度，便于保存 */
-- (NSString *)convertSize:(NSInteger)fileSize {
+- (NSString *)convertSize:(long long)fileSize {
     NSString *sizeStr;
     if (fileSize <= 0) {
         sizeStr = @"0.00KB";
