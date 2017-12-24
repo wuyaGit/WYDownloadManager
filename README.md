@@ -8,6 +8,7 @@
     pod 'WYProgressView'
     
  （2）直接下载源码，导入项目
+ ![示例3](https://github.com/wuyaGit/WYDownloadManager/blob/master/ScreenShot/E447AFF6-5738-44D8-994D-12A379A7272B.png)
  
   # 2、使用说明
   
