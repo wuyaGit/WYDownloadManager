@@ -9,7 +9,7 @@
     
  （2）直接下载源码，导入项目
 
-  ![示例3](https://github.com/wuyaGit/WYDownloadManager/blob/master/ScreenShot/E447AFF6-5738-44D8-994D-12A379A7272B.png)
+  ![示例1](https://github.com/wuyaGit/WYDownloadManager/blob/master/ScreenShot/E447AFF6-5738-44D8-994D-12A379A7272B.png)
  
   # 2、使用说明
   
@@ -46,4 +46,5 @@
     }];
     
 # 3、示例
+  ![示例2](https://github.com/wuyaGit/WYDownloadManager/blob/master/ScreenShot/16_19_41.gif)
 
